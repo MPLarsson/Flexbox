@@ -1,0 +1,73 @@
+body {
+    color: white;
+    background-color: #370617;
+}
+
+.flex_container_row {
+/*     width: 468px;
+    height: 160px;
+    background-color: #F48C06;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px; */
+    display: flex;
+/*     padding: 20px;
+    margin: 20px; */
+}
+
+.flex_container {
+    width: 468px;
+    height: 160px;
+    background-color: #F48C06;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.flex_frame {
+    position:relative;
+    width: 1152px;
+    height: 600px;
+    border-style: dotted;
+    border-color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+}
+
+.card {
+    width: 78px; 
+    height: 78px; 
+    background: #9D0208; 
+    border-radius: 4px;
+    display: flex;
+    margin: 10px;
+}
+
+.card_rectangle {
+    width: 78px;
+    height: 120px;
+    background: #9D0208;
+    border-radius: 4px;
+    display: flex;
+    margin: 10px;
+}
+
+.card_small_rectangle {
+    width: 78px;
+    height: 64px;
+    background: #9D0208;
+    border-radius: 4px;
+    display: flex;
+    margin: 10px;
+}
+
+.card_prone_rectangle {
+    width: 156px;
+    height: 78px;
+    background: #9D0208;
+    border-radius: 4px;
+    display: flex;
+    margin: 10px;
+}
